@@ -1,0 +1,100 @@
+/* General styling */
+.app-container {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.app-button {
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.app-button:hover {
+  background-color: #54a0ff;
+}
+
+.source-info {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.characters-container, .quote-container {
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #55efc4;
+}
+
+.character-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.character-item {
+  font-size: 1.2rem;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.quote-content {
+  text-align: center;
+}
+
+.quote-image {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
